@@ -130,3 +130,139 @@ python -m pytest tests/
 ![صورة 2](img-02.png)
 ![صورة 3](img-03.png)
 
+---
+
+# [English]
+
+<div dir="ltr">
+
+## Morphological Selector
+
+An advanced tool for Arabic morphological analysis with a comprehensive database of patterns, tags, prefixes, and suffixes.
+
+![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Features
+
+- **Comprehensive Morphological Analysis**: Analysis of nouns and verbs
+- **Comprehensive Database**: Patterns for nouns and verbs, prefixes and suffixes
+- **Tagging System**: Classification of words by type
+- **Pattern Conversion**: Convert patterns between different forms
+- **Graphical Interface**: Easy-to-use user interface
+- **Detailed Reports**: Comprehensive analytical reports
+- **Caching System**: Speed up repeated analysis
+
+## Requirements
+
+- Python 3.7 or later
+- PyQt6 (for graphical interface - if available)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ayzem88/morphological-selector.git
+cd morphological-selector
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. **Important Note**: The program needs the `morphology.db` file (morphological database) to work. This file is very large (>100MB) and was not uploaded to GitHub.
+
+   **Solutions**:
+   - You can create the database from the `قواعد البيانات/*.txt` files in the repository
+   - Or request the file from the developer
+   - The program will work without the database but with limited functionality
+
+## Usage
+
+### Running
+
+```bash
+python run.py
+```
+
+Or directly:
+```bash
+python "0.5 المختار الصرفي.py"
+```
+
+## Files
+
+- `0.5 المختار الصرفي.py`: Main file
+- `run.py`: Simplified run file
+- `morphology.db`: Morphological database
+- `قواعد البيانات/`: Text database folder
+  - `أوزان_الأسماء.txt`
+  - `أوزان_الأفعال.txt`
+  - `الوسم.txt`
+  - `سوابق ولواحق_أسماء.txt`
+  - `سوابق ولواحق_أفعال.txt`
+  - `قلب الأوزان.txt`
+  - `الخريطة.txt`
+- `cache/`: Cache folder
+- `reports/`: Reports folder
+
+## Detailed Features
+
+### Noun Analysis
+- Identify noun pattern
+- Detect prefixes and suffixes
+- Classify by tag
+
+### Verb Analysis
+- Identify verb pattern
+- Detect prefixes and suffixes
+- Classify by tag
+
+### Pattern Conversion
+- Convert patterns between different forms
+- Support for complex conversions
+
+## Testing
+
+```bash
+# Install development requirements
+pip install -r requirements-dev.txt
+
+# Run tests
+python -m pytest tests/
+```
+
+## Contributing
+
+We welcome contributions! See [Contributing Guide](CONTRIBUTING.md) for details.
+
+## License
+
+This project is licensed under [MIT License](LICENSE) - see the LICENSE file for details.
+
+## Developer
+
+Developed by **Ayman Al-Tayyib Ben Naji** ([ayzem88](https://github.com/ayzem88))
+
+## Contact
+
+For inquiries or contributions, you can contact me via:
+- Email: [aymen.nji@gmail.com](mailto:aymen.nji@gmail.com)
+
+## Future Development
+
+- [ ] Enhanced graphical interface
+- [ ] Support for more patterns
+- [ ] Improved analysis accuracy
+- [ ] Command-line interface (CLI)
+- [ ] API for programmatic use
+
+## Screenshots
+
+![Screenshot 1](img-01.png)
+![Screenshot 2](img-02.png)
+![Screenshot 3](img-03.png)
+
+</div>
+
