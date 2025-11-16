@@ -1,4 +1,4 @@
-# المختار الصرفي
+# المختار الصرفي / Morphological Selector
 
 <div dir="rtl">
 
