@@ -44,9 +44,11 @@ desktop.ini
 cache/
 reports/
 *.db
-!morphology.db
 temp/
 output/
+# ملفات كبيرة - لا ترفع
+morphology.db
+قواعد البيانات/المدونة/قائمة_الكلمات_النهائية_مشكل.txt
 
 # Test files
 .pytest_cache/
