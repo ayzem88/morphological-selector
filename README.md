@@ -109,7 +109,7 @@ python -m pytest tests/
 
 ## المطور
 
-تم تطوير هذا المشروع بواسطة [ayzem88](https://github.com/ayzem88)
+تم تطوير هذا المشروع بواسطة **أيمن الطيّب بن نجي** ([ayzem88](https://github.com/ayzem88))
 
 ## التواصل
 
