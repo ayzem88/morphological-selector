@@ -46,9 +46,14 @@ reports/
 *.db
 temp/
 output/
-# ملفات كبيرة - لا ترفع
+
+# البيانات والمدونات والنصوص - لا ترفع
 morphology.db
-قواعد البيانات/المدونة/قائمة_الكلمات_النهائية_مشكل.txt
+قواعد البيانات/المدونة/
+قواعد البيانات/**/*.txt
+*.xlsx
+*.json
+!requirements*.json
 
 # Test files
 .pytest_cache/
