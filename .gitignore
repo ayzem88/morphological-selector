@@ -47,13 +47,15 @@ reports/
 temp/
 output/
 
-# البيانات والمدونات والنصوص - لا ترفع
+# البيانات والمدونات الكبيرة - لا ترفع
+# ملفات أكبر من 10MB
 morphology.db
-قواعد البيانات/المدونة/
-قواعد البيانات/**/*.txt
+قواعد البيانات/المدونة/قائمة_الكلمات_النهائية_مشكل.txt
 *.xlsx
-*.json
-!requirements*.json
+# السماح بالملفات الصغيرة
+!stop_words.txt
+!requirements*.txt
+!README*.txt
 
 # Test files
 .pytest_cache/
